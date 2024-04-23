@@ -1,4 +1,4 @@
-export const resetPasswordTemplate = `<!DOCTYPE html>
+export const activationTemplate = `<!DOCTYPE html>
 
 <html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
@@ -117,7 +117,7 @@ export const resetPasswordTemplate = `<!DOCTYPE html>
 <tr>
 <td class="pad">
 <div style="color:#1f2430;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;line-height:180%;text-align:center;mso-line-height-alt:28.8px;">
-<p style="margin: 0; word-break: break-word;">You can reset your password through the link below!</p>
+<p style="margin: 0; word-break: break-word;">Please activate your account with link below!</p>
 </div>
 </td>
 </tr>
@@ -130,7 +130,7 @@ export const resetPasswordTemplate = `<!DOCTYPE html>
 <w:anchorlock/>
 <v:textbox inset="0px,0px,0px,0px">
 <center style="color:#ffffff; font-family:Arial, sans-serif; font-size:16px">
-<![endif]--><a href="{{url}}" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#090f34;border-radius:16px;width:auto;border-top:1px solid #000000;border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;padding-top:15px;padding-bottom:15px;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:35px;padding-right:35px;font-size:16px;display:inline-block;letter-spacing:normal;"><span style="word-break: break-word; line-height: 32px;">Reset Your Password</span></span></a><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
+<![endif]--><a href="{{url}}" style="text-decoration:none;display:inline-block;color:#ffffff;background-color:#090f34;border-radius:16px;width:auto;border-top:1px solid #000000;font-weight:undefined;border-right:1px solid #000000;border-bottom:1px solid #000000;border-left:1px solid #000000;padding-top:15px;padding-bottom:15px;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;" target="_blank"><span style="padding-left:35px;padding-right:35px;font-size:16px;display:inline-block;letter-spacing:normal;"><span style="word-break: break-word; line-height: 32px;">Activate Your Account</span></span></a><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
 </td>
 </tr>
 </table>

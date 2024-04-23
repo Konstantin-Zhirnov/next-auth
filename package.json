@@ -9,16 +9,36 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@prisma/client": "^5.12.1",
+    "@types/nodemailer": "^6.4.14",
+    "@types/validator": "^13.11.9",
+    "bcrypt": "^5.1.1",
+    "check-password-strength": "^2.0.10",
+    "classnames": "^2.5.1",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.1",
+    "next-auth": "^4.24.5",
+    "nodemailer": "^6.9.13",
+    "prisma": "^5.12.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.1"
+    "react-hook-form": "^7.51.3",
+    "react-toastify": "^10.0.5",
+    "sass": "^1.75.0",
+    "validator": "^13.11.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.1"
+    "eslint-config-next": "14.2.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5"
   }
 }

@@ -1,15 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
-import SignUpForm from '@/components/SignUpForm'
 
-const Signup = () => {
+import SignInForm from '@/components/SignInForm'
+
+const Signup: React.FC = () => {
   return (
     <div>
       <div>
-        <p>Already Signed up?</p>
-        <Link href="/auth/signin">Sign In</Link>
-
-        <SignUpForm />
+        <SignInForm />
+        <Link href="/auth/forgotPassword">Forgot Your Password?</Link>
       </div>
     </div>
   )
